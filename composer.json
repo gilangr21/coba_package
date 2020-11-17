@@ -1,0 +1,26 @@
+{
+    "name": "gilang/test",
+    "description": "buat test hello world",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gilang Ramadhan",
+            "email": "gilang.rdh21@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Gilang\\Test\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gilang\\Test\\CobaServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
